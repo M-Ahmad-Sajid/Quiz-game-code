@@ -1,3 +1,10 @@
+#include <iostream>
+#include <fstream>
+#include <string>
+using namespace std;
+
+
+
 void playGame() {       // Function of the main game logic and scoreboard
     string name;
     int age;
@@ -51,3 +58,13 @@ void playGame() {       // Function of the main game logic and scoreboard
 }
 
 
+int main() {
+	
+
+    cout << "Welcome to the Quiz Game!\n";
+    
+    playGame();  // Start the game
+    
+    
+    return 0;
+}
